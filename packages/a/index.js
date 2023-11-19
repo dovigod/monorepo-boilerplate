@@ -1,5 +1,5 @@
 console.log("hi from a");
 
-require("b");
+require("@dovigod/b");
 const lodash = require("lodash");
 console.dir(lodash);

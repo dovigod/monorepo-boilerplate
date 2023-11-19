@@ -1,16 +1,20 @@
 {
-  "name": "monorepo-boilerplate",
+  "name": "@dovigod/monorepo-boilerplate",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "build:a": "pnpm --filter a build",
-    "cache-clean": "npm cache clean --force"
+    "cache-clean": "npm cache clean --force",
+    "lerna": "lerna"
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
   },
-  "packageManager": "^pnpm@8.6.0"
+  "packageManager": "^pnpm@8.6.0",
+  "dependencies": {
+    "lerna": "^7.4.2"
+  }
 }

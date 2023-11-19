@@ -1,5 +1,5 @@
 {
-  "name": "a",
+  "name": "@dovigod/a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21",
-    "b": "workspace:*"
+    "@dovigod/b": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
