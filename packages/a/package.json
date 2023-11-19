@@ -1,6 +1,6 @@
 {
   "name": "@dovigod/a",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "@dovigod/b": "workspace:*"
+    "@dovigod/b": "workspace:*",
+    "lodash": "^4.17.21"
   },
   "publishConfig": {
     "access": "public"
