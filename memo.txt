@@ -1,0 +1,4 @@
+node_modules resolution stategy
+
+find module from nearest parent, and if not , go to next parent.
+
