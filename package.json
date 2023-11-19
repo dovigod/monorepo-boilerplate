@@ -4,10 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "shared": "pnpm -F @monorepo-boilerplate/shared",
-    "pack1": "pnpm -F @monorepo-boilerplate/pack1",
-    "pack2": "pnpm -F @monorepo-boilerplate/pack2",
-    "dev": "pnpm -r dev",
+    "build:a": "pnpm --filter a build",
     "cache-clean": "npm cache clean --force"
   },
   "workspaces": {
