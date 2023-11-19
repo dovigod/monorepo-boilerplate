@@ -6,7 +6,8 @@
   "scripts": {
     "build:a": "pnpm --filter a build",
     "cache-clean": "npm cache clean --force",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "nx:build": "pnpm exec nx run-many --target=build"
   },
   "workspaces": {
     "packages": [
@@ -15,6 +16,10 @@
   },
   "packageManager": "^pnpm@8.6.0",
   "dependencies": {
-    "lerna": "^7.4.2"
+    "lerna": "^7.4.2",
+    "nx": "^17.1.2"
+  },
+  "devDependencies": {
+    "nx": "17.1.2"
   }
 }

@@ -5,3 +5,5 @@ node_modules
 memo.txt
 ./memo.txt
 /memo.txt
+
+.nx/cache

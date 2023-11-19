@@ -1,0 +1,12 @@
+{
+  "extends": "nx/presets/npm.json",
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    }
+  },
+  "affected": {
+    "defaultBase": "main"
+  },
+  "nxCloudAccessToken": "Yjk2OGY3NzMtYmRlZC00ZGNjLWFjNDYtZWNmMWExOGYyNzBlfHJlYWQtd3JpdGU="
+}
