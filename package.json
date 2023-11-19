@@ -7,6 +7,13 @@
     "shared": "pnpm -F @monorepo-boilerplate/shared",
     "pack1": "pnpm -F @monorepo-boilerplate/pack1",
     "pack2": "pnpm -F @monorepo-boilerplate/pack2",
-    "dev": "pnpm -r dev"
-  }
+    "dev": "pnpm -r dev",
+    "cache-clean": "npm cache clean --force"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "packageManager": "^pnpm@8.6.0"
 }
